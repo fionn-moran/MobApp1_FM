@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MobApp1_FM</string>
+    <string name="createacc_email_hint">Enter An Email Address</string>
+    <string name="createacc_password_hint">Enter A Password</string>
+    <string name="createacc_btn">Create Account</string>
+    <string name="login_btn">Login</string>
+    <string name="createacc_heading">Create Account</string>
+    <string name="login_heading">Log In</string>
+    <string name="login_email_hint">Enter Your Email Address</string>
+    <string name="login_password_hint">Enter Your Password</string>
+    <string name="logout_btn">Sign Out</string>
 </resources>
