@@ -18,8 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".activities.CreateAccActivity"/>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".activities.ForgotPasswordActivity"/>
     </application>
 
 </manifest>

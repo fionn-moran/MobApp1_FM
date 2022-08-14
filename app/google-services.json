@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546119860656",
+    "project_id": "mobapp1fm",
+    "storage_bucket": "mobapp1fm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546119860656:android:4b0c484ceeedf9ffce9675",
+        "android_client_info": {
+          "package_name": "com.example.mobapp1_fm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546119860656-mrbod6v8rullk53i3iv2372v967tbstj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0XFRimJdAgKWBIcPgDR1_QtIH6HhhwOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546119860656-mrbod6v8rullk53i3iv2372v967tbstj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
