@@ -11,4 +11,7 @@
     <string name="logout_btn">Sign Out</string>
     <string name="forgotpassword_heading">Reset Password</string>
     <string name="resetpassword_btn">Reset Password</string>
+    <string name="updateprofile_heading">Update Profile</string>
+    <string name="userName">Enter a Username</string>
+    <string name="updateProfile_btn">Update</string>
 </resources>

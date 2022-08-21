@@ -34,13 +34,17 @@ class ForgotPasswordActivity : AppCompatActivity() {
                         .show()
                 }
             else {
-                auth.sendPasswordResetEmail(email)
+                auth.sendPasswordResetEmail(email) //firebase function to send the email
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful)
-                            Toast.makeText(this, "An email with reset instructiona has been sent to: $email", Toast.LENGTH_LONG).show()
+                            Toast.makeText(this, "An email with reset instructions has been sent to: $email", Toast.LENGTH_LONG).show()
                         val intent = Intent(this, LoginActivity::class.java)
                         startActivity(intent)
                         finish()
+                    }
+                    .addOnFailureListener {
+                        Toast.makeText(this, "Error: ${it.message}", Toast.LENGTH_LONG).show()  // Will throw an error if email was not previously registered
+
                     }
             }
         }
