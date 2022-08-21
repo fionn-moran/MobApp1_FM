@@ -3,17 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/activity_updatepassword.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/edittextdesign.xml" value="0.1065" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.142" />
+        <entry key="app/src/main/res/drawable/ic_phone.xml" value="0.142" />
         <entry key="app/src/main/res/drawable/roundtext.xml" value="0.1065" />
         <entry key="app/src/main/res/layout/activity_createacc.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_forgotpassword.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/activity_forgotpassword.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_retrieve.xml" value="0.2463768115942029" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_updatepassword.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_updateprofile.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/logoutmenu.xml" value="0.2953125" />
       </map>
     </option>

@@ -33,6 +33,7 @@ class CreateAccActivity : AppCompatActivity() {
          val email: String = emailCreate.text.toString()
          val password: String = passCreate.text.toString()
 
+         /// Checking for variations of empty strings
          if (TextUtils.isEmpty(email)) {
             Toast.makeText(this, "Please enter an email", Toast.LENGTH_LONG).show()
          }
@@ -50,14 +51,14 @@ class CreateAccActivity : AppCompatActivity() {
                .addOnCompleteListener(this) { task ->
                   if (task.isSuccessful) {
                      val currentuser = auth.currentUser?.email.toString()
-                     Toast.makeText(this, "Welcome: $currentuser", Toast.LENGTH_LONG).show()
+                     Toast.makeText(this, "Welcome: $currentuser", Toast.LENGTH_LONG).show() //Shows a welcome message to the current user
                      val intent = Intent(this, MainActivity::class.java)
                      startActivity(intent)
                      finish()
                   }
                }
                .addOnFailureListener{
-                  Toast.makeText(this, "Error: ${it.message}", Toast.LENGTH_LONG).show()
+                  Toast.makeText(this, "Error: ${it.message}", Toast.LENGTH_LONG).show() //extra firebase validation on email/password fields. This will throw the specific error e.g. bad email/bad password format
                }
          }
       }
